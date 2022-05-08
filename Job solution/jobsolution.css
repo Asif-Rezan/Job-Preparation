@@ -1,0 +1,20 @@
+/*background color*/
+
+.sub-back-color{
+    background-color: rgb(1, 1, 83);
+    
+  }
+  
+  /*card-title-text*/
+  .card-title{
+    text-align: center;
+  }
+  
+  /*text link*/
+  .text-style
+  {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  

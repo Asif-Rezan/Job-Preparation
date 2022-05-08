@@ -1,0 +1,52 @@
+/*menu text*/
+.menu-text-color{
+    color: white;
+  }
+
+  .sub-body
+  {
+    background-color: azure;
+  }
+  .sub-title
+  {
+    margin-top: 10%;
+
+  }
+
+  .card{
+    cursor: pointer;
+  }
+  
+
+  
+  /*row to column convert*/
+  .row-col
+  {
+    float: left;
+    margin-left:60px;
+    color: rgb(116, 31, 0);
+  }
+  /*card text*/
+  .card-text{
+    margin-top: 60px;
+    font-size: x-large;
+  }
+
+  
+
+  /*Headline*/
+  .position{
+      text-align: center;
+      
+      font-size: 40px;
+      background-color: rgb(202, 81, 60) ;
+      padding: 0%;
+      width: 87.7%;
+      margin-left: 62px;
+      opacity:0.8;
+     
+      
+     
+  }
+
+ 

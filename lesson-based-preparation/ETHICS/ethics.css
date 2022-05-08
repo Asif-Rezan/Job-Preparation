@@ -1,0 +1,61 @@
+/*menu text*/
+.menu-text-color{
+    color: white;
+  }
+
+  .sub-body
+  {
+    background-color: azure;
+  }
+  .sub-title
+  {
+    margin-top: 5%;
+
+  }
+
+  .card{
+    cursor: pointer;
+    
+  }
+  
+
+  
+  /*row to column convert*/
+  .row-col
+  {
+    float: left;
+    margin-left:140px;
+    color: rgb(116, 31, 0);
+  }
+  /*card text*/
+  /*.card-text{
+    margin-top: 60px;
+    font-size: x-large;
+  }*/
+
+  
+
+  /*Headline*/
+  .position{
+      text-align: center;
+      text-size-adjust: 20px;
+      font-size: 40px;
+      background-color: rgb(207, 226, 231) ;
+      padding: 0%;
+      width: 81.3%;
+      margin-left: 70px;
+     /* opacity:0.8;*/
+      height: 55px;
+      border-color: rgb(4, 8, 7);
+      
+     
+      
+     
+  }
+
+
+  .hrr{
+      margin-right: 10px;
+      width: 1180px;
+      
+  }

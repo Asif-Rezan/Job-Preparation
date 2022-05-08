@@ -1,0 +1,40 @@
+/*background color*/
+
+.sub-back-color{
+    background-color: rgb(164, 164, 196);
+    
+  }
+  
+  /*card-title-text*/
+  .card-title{
+    text-align: center;
+  }
+  
+  /*text link*/
+  .text-style
+  {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  .position{
+    text-align: center;
+    width: 500px;
+    font-size: 40px;
+    background-color: rgb(200, 213, 206) ;
+    padding: 0%;
+    width: 51.9%;
+    margin-left: 62px;
+    margin-left: 450px;
+    border-radius: 40px;
+    
+    
+   
+    
+   
+}
+
+.card{
+    margin-left: 450px;
+    width: 500px;
+}
