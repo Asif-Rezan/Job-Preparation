@@ -9,6 +9,10 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="Subject based preparation.css">
+
+  
+
+
 </head>
 
 <body class="sub-body">
@@ -69,7 +73,7 @@
     </div>
 
     
-    <div class="card shadow-lg text-center  mb-3 row-col" style="max-width: 540px;">
+    <div class="card shadow-lg text-center  mb-3 row-col" style="max-width: 540px;" onclick="window.location.href='questions.php?topic=math'">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="../images/subject image/গাণিতিক যুক্তি.png" class="img-fluid rounded-start" alt="...">
@@ -83,7 +87,7 @@
         </div>
       </div>
     </div>
-    <div class="card shadow-lg text-center  mb-3 row-col" style="max-width: 540px;">
+    <div class="card shadow-lg text-center  mb-3 row-col" style="max-width: 540px;" onclick="window.location.href='questions.php?topic=bangladesh-affairs'">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="../images/subject image/বাংলাদেশ বিষয়াবলী.png" class="img-fluid rounded-start" alt="...">
@@ -97,7 +101,7 @@
         </div>
       </div>
     </div>
-    <div class="card shadow-lg text-center  mb-3 row-col" style="max-width: 540px;">
+    <div class="card shadow-lg text-center  mb-3 row-col" style="max-width: 540px;" onclick="window.location.href='questions.php?topic=international-affairs'">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="../images/subject image/A (2).png" class="img-fluid rounded-start" alt="...">
@@ -111,7 +115,7 @@
         </div>
       </div>
     </div>
-    <div class="card shadow-lg text-center  mb-3 row-col" style="max-width: 540px;">
+    <div class="card shadow-lg text-center  mb-3 row-col" style="max-width: 540px;" onclick="window.location.href='questions.php?topic=general-science'">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="../images/subject image/সাধারণ বিজ্ঞান .png" class="img-fluid rounded-start" alt="...">
@@ -125,7 +129,7 @@
         </div>
       </div>
     </div>
-    <div class="card shadow-lg text-center  mb-3 row-col" style="max-width: 540px;">
+    <div class="card shadow-lg text-center  mb-3 row-col" style="max-width: 540px;" onclick="window.location.href='questions.php?topic=computer-and-information-technology'">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="../images/subject image/কম্পিউটার ও তথ্য প্রযুক্তি .png" class="img-fluid rounded-start" alt="...">
@@ -139,7 +143,7 @@
         </div>
       </div>
     </div>
-    <div class="card shadow-lg text-center  mb-3 row-col" style="max-width: 540px;">
+    <div class="card shadow-lg text-center  mb-3 row-col" style="max-width: 540px;" onclick="window.location.href='questions.php?topic=geography-environment-and-disaster-management'">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="../images/subject image/v.png" class="img-fluid rounded-start" alt="...">
@@ -153,7 +157,7 @@
         </div>
       </div>
     </div>
-    <div class="card shadow-lg text-center  mb-3 row-col" style="max-width: 540px;">
+    <div class="card shadow-lg text-center  mb-3 row-col" style="max-width: 540px;" onclick="window.location.href='questions.php?topic=mental-skills'">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="../images/subject image/মানসিক দক্ষতা.png" class="img-fluid rounded-start" alt="...">
@@ -167,7 +171,7 @@
         </div>
       </div>
     </div>
-    <div class="card shadow-lg text-center  mb-3 row-col" style="max-width: 540px;">
+    <div class="card shadow-lg text-center  mb-3 row-col" style="max-width: 540px;" onclick="window.location.href='questions.php?topic=ethics-values-and-good-governance'">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="../images/subject image/নৈতিকতা, মূল্যবোধ ও সু-শাসন.png" class="img-fluid rounded-start" alt="...">

@@ -1,0 +1,3 @@
+CREATE TABLE questions (question_id int(11) NOT NULL AUTO_INCREMENT, question_text varchar(255) NOT NULL, option1 varchar(255) NOT NULL, option2 varchar(255) NOT NULL, option3 varchar(255) NOT NULL, option4 varchar(255) NOT NULL, question_type varchar(100) NOT NULL, PRIMARY KEY (question_id));
+CREATE TABLE correct_answer (correct_answer_id int(11) NOT NULL AUTO_INCREMENT, correct_answer_option varchar(255) DEFAULT '0' NOT NULL, questionsquestion_id int(11) NOT NULL, PRIMARY KEY (correct_answer_id));
+ALTER TABLE correct_answer ADD INDEX FKcorrect_an321839 (questionsquestion_id), ADD CONSTRAINT FKcorrect_an321839 FOREIGN KEY (questionsquestion_id) REFERENCES questions (question_id);

@@ -14,13 +14,21 @@
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/footer.css">
 
+    <style>
+        body {
+          background-image: url("images/homepage_image/b_image.jpg");
+          background-position: 100% 100%;
+          background-repeat: repeat;
+        }
+    </style>
+
 </head>
 
 <body>
 
 
   <!--Menu bar shart-->
-  <div>
+  <div >
     <nav class="navbar navbar-expand-lg  fixed-top navbar-primary bg-white shadow-lg" >
       <div class="container-fluid ">
         <a class="navbar-brand" href="#"><h2 class="text-success"><b>JP</b></h2></a>

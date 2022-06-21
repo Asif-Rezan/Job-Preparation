@@ -57,8 +57,10 @@ if($_SERVER['REQUEST_METHOD']=='POST')
     echo $e;
     
   }
+  $message ="save successfull";
+  header("Location:".$_SERVER['HTTP_REFERER']."?message=".$message);
 
-  header("location: input_questions.php?save=successfull");
+  //header("location: input_questions.php?save=successfull");
 
  
 

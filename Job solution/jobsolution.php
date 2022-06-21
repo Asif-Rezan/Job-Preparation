@@ -7,57 +7,38 @@
     <title>Job Solution</title>
     <link rel="stylesheet" href="jobsolution.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    
+
 </head>
 <body class="sub-back-color">
 
-     <!--Menu bar shart-->
-     <div>
-        <nav class="navbar navbar-expand-lg navbar-primary bg-dark" >
-          <div class="container-fluid ">
-            <a class="navbar-brand" href="#"><h2 class="text-success"><b>JP</b></h2></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active menu-text-color " aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link menu-text-color" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link menu-text-color" href="#">Contact us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link nabbar-link menu-text-color" href="#">Help Line : 01999-342714</a>
-                </li>
+   <?php 
+   include '../navbar.php'
+    ?>
+
   
-              </ul>
-              <form class="d-flex ">
-                <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success " type="submit">Search</button>
-              </form>
-            </div>
-          </div>
-        </nav>
-        <hr/>
-        <!--menu bar end-->
+
+     
 
         <hr><br>
         <hr><br>
         <hr><br>
 
     <div class="row row-cols-1 row-cols-md-4 g-4 ">
+
+
         <div class="col">
           <div class="card">
             <img src="image/coverpic.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title "><a href="../bcs-job-solution/bcs.html" class="text-style">বি.সি.এস </a></h5>
+              <h5 class="card-title "><a href="../bcs-job-solution/bcs.php" class="text-style">বি.সি.এস </a></h5>
               
             </div>
           </div>
         </div>
+
+
         <div class="col">
           <div class="card">
             <img src="image/coverpic.jpg" class="card-img-top" alt="...">
@@ -67,6 +48,7 @@
             </div>
           </div>
         </div>
+
         <div class="col">
           <div class="card">
             <img src="image/coverpic.jpg" class="card-img-top" alt="...">
