@@ -32,6 +32,7 @@ include 'navbar.php';
         <div class="col">
           <div class="card ">
             <img src="./images/homepage_image/b_image.jpg" class="card-img-top" alt="...">
+           <!-- <img src="./images/homepage_image/b_image.jpg" class="card-img-top" alt="...">-->
             <div class="card-body">
               <h5 class="card-title"><a href="subject-based-preparation/Subject based preparation.php" class="text-style">বিষয় ভিত্তিক প্রস্তুতি</a></h5>
               

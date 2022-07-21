@@ -14,13 +14,13 @@
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/footer.css">
 
-    <style>
+    <!-- <style>
         body {
           background-image: url("images/homepage_image/b_image.jpg");
           background-position: 100% 100%;
           background-repeat: repeat;
         }
-    </style>
+    </style> -->
 
 </head>
 

@@ -1,6 +1,6 @@
 <?php
-include "../dbh.php";
-include "../navbar.php";
+include "./dbh.php";
+include "./navbar.php";
 
 ?>
 
@@ -11,7 +11,7 @@ include "../navbar.php";
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="questions.css">
+  
 
 
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -40,12 +40,20 @@ include "../navbar.php";
     <hr>
     <hr>
 
+    <h1>All Questions are available here</h1>
+
 
     <?php
 
-    $flag=true;
+    
 
-    $question_type = $_GET['topic'];
+    
+  $question_type=$_GET['value'];
+
+
+   // echo $question_type;
+   
+
 
     $sql = "SELECT * FROM questions WHERE question_type='$question_type'";
 
@@ -91,20 +99,9 @@ include "../navbar.php";
             <label class='form-check-label' for='$row[question_id]'>$row[option4]</label>
           </div>
 
-          <input class='id_input' type='hidden' /> ";
+          <input class='id_input' type='hidden' />
 
-
-          if($flag)
-          {
-            echo "<input type='submit' class='btn btn-success'  id ='$row[question_id]' />";
-            $flag==false;
-
-          }
-          echo "
-          <input type='submit' class='btn btn-success'  id ='$row[question_id]' disabled/>
-          
-          
-          
+          <input type='submit' class='btn btn-success' id ='$row[question_id]' />
         
         
 
@@ -166,13 +163,13 @@ include "../navbar.php";
 
 
 <audio class="loose_audio" controls preload="none" hidden>
-    <source src="../audio/forceField_000.ogg" type="audio/mpeg">
+    <source src="./audio/forceField_000.ogg" type="audio/mpeg">
    
 </audio>
 
 <audio class="win_audio" controls preload="none" hidden>
    
-    <source src="../audio/phaserUp7.ogg" type="audio/ogg">
+    <source src="./audio/phaserUp7.ogg" type="audio/ogg">
 </audio>
 
 
@@ -205,7 +202,7 @@ include "../navbar.php";
         $.ajax({
 
             method: "POST",
-            url: "check_answer.php",
+            url: "./check_answer.php",
             type: 'application/json',
            
 
@@ -293,12 +290,12 @@ include "../navbar.php";
 
 
   <?php
-  include '../footer.php';
+  include './footer.php';
 
   ?>
 
 
-  <script src="../js/correct_answer.js"></script>
+  <script src="./js/correct_answer.js"></script>
 </body>
 
 

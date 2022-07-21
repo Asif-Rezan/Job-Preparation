@@ -17,6 +17,8 @@ include_once "../navbar.php";
 
 <button class="btn btn-primary" onclick="window.location.href='subject_based_preparation.php'">বিষয় ভিত্তিক প্রস্তুতি</button> <br>
 <button class="btn btn-primary my-2" onclick="window.location.href='bcs.php'">BCS Questions</button>
-
+<button class="btn btn-primary my-2" onclick="window.location.href='bangla_literature.php'">বাংলা সাহিত্য</button>
+<button class="btn btn-primary my-2" onclick="window.location.href='bangla_grammar.php'">বাংলা ভাষা</button>
+<button class="btn btn-primary my-2" onclick="window.location.href='engish_language_and_literature.php'">English Language & Literature</button>
 </body>
 </html>
