@@ -20,5 +20,7 @@ include_once "../navbar.php";
 <button class="btn btn-primary my-2" onclick="window.location.href='bangla_literature.php'">বাংলা সাহিত্য</button>
 <button class="btn btn-primary my-2" onclick="window.location.href='bangla_grammar.php'">বাংলা ভাষা</button>
 <button class="btn btn-primary my-2" onclick="window.location.href='engish_language_and_literature.php'">English Language & Literature</button>
+<button class="btn btn-primary my-2" onclick="window.location.href='math.php'">গাণিতিক যুক্তি</button>
+
 </body>
 </html>
